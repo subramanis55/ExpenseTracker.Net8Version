@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Evalution2</RootNamespace>
+    <AssemblyName>Evalution2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>business %282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Installer for Windows\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCategoryU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddCategoryU.Designer.cs">
+      <DependentUpon>AddCategoryU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPage.Designer.cs">
+      <DependentUpon>AddPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs" />
+    <Compile Include="CategoryDeleteU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CategoryDeleteU.Designer.cs">
+      <DependentUpon>CategoryDeleteU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryUpdateU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CategoryUpdateU.Designer.cs">
+      <DependentUpon>CategoryUpdateU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartU.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChartViewU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartViewU.Designer.cs">
+      <DependentUpon>ChartViewU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Expense.cs" />
+    <Compile Include="ExpenseManager.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageConfirmForm.Designer.cs">
+      <DependentUpon>MessageConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotificationForm.Designer.cs">
+      <DependentUpon>NotificationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationThrowManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCategoryU.resx">
+      <DependentUpon>AddCategoryU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPage.resx">
+      <DependentUpon>AddPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryDeleteU.resx">
+      <DependentUpon>CategoryDeleteU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryUpdateU.resx">
+      <DependentUpon>CategoryUpdateU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartViewU.resx">
+      <DependentUpon>ChartViewU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageConfirmForm.resx">
+      <DependentUpon>MessageConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationForm.resx">
+      <DependentUpon>NotificationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-bar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spending-money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expenses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calender %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calender %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calender %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="business %282%29.ico" />
+    <Content Include="calculator.ico" />
+    <Content Include="icons8-employee-profile-100.ico" />
+    <None Include="Resources\business %282%29.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\business-and-finance.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\icons8-cancel-25 %281%29.png" />
+    <None Include="Resources\cancel %281%29.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\icons8-cancel-20.png" />
+    <None Include="Resources\category %281%29.png" />
+    <None Include="Resources\category.png" />
+    <None Include="Resources\calendar %283%29.png" />
+    <None Include="Resources\calender %281%291.png" />
+    <None Include="Resources\expenses %281%29.png" />
+    <None Include="Resources\ErrorIcon.png" />
+    <None Include="Resources\WarningIcon.png" />
+    <None Include="Resources\SuccessIcon.png" />
+    <None Include="Resources\InformationIcon.png" />
+    <None Include="Resources\icons8-cancel-30.png" />
+    <None Include="Resources\grid %284%29.png" />
+    <None Include="Resources\grid %282%29.png" />
+    <None Include="Resources\grid %283%29.png" />
+    <None Include="Resources\grid %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

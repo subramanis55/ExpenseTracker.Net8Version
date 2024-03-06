@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ExpenseTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Evalution2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\categoryupdateu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\categoryupdateu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\addpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\addpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\categoryupdateu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\categoryupdateu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\addcategoryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\addcategoryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\addcategoryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\addcategoryu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\notificationthrowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\notificationthrowmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\notificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\notificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\notificationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\notificationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\Evalution2\\NotificationForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:Evalution2\\NotificationForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|F:\\ExpenseTracker\\evalution2\\categorydeleteu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|solutionrelative:evalution2\\categorydeleteu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}|Evalution2\\Evalution2.csproj|f:\\expensetracker\\evalution2\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Evalution2",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\Evalution2.csproj",
+              "RelativeDocumentMoniker": "Evalution2\\Evalution2.csproj",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\Evalution2.csproj",
+              "RelativeToolTip": "Evalution2\\Evalution2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-27T16:42:29.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\Form1.cs",
+              "RelativeDocumentMoniker": "Evalution2\\Form1.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\Form1.cs",
+              "RelativeToolTip": "Evalution2\\Form1.cs",
+              "ViewState": "AQIAAIACAAAAAAAAAAAAwI4CAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:47:47.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\Program.cs",
+              "RelativeDocumentMoniker": "Evalution2\\Program.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\Program.cs",
+              "RelativeToolTip": "Evalution2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T05:17:44.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPage.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\AddPage.cs",
+              "RelativeDocumentMoniker": "Evalution2\\AddPage.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\AddPage.cs [Design]",
+              "RelativeToolTip": "Evalution2\\AddPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:20:45.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryUpdateU.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\CategoryUpdateU.cs",
+              "RelativeDocumentMoniker": "Evalution2\\CategoryUpdateU.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\CategoryUpdateU.cs",
+              "RelativeToolTip": "Evalution2\\CategoryUpdateU.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:07:39.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "categoryUpdateU.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\categoryUpdateU.cs",
+              "RelativeDocumentMoniker": "Evalution2\\categoryUpdateU.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\categoryUpdateU.cs [Design]",
+              "RelativeToolTip": "Evalution2\\categoryUpdateU.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:07:35.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExpenseManager.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\ExpenseManager.cs",
+              "RelativeDocumentMoniker": "Evalution2\\ExpenseManager.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\ExpenseManager.cs",
+              "RelativeToolTip": "Evalution2\\ExpenseManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:04:42.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCategoryU.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\AddCategoryU.cs",
+              "RelativeDocumentMoniker": "Evalution2\\AddCategoryU.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\AddCategoryU.cs",
+              "RelativeToolTip": "Evalution2\\AddCategoryU.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:57:33.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddCategoryU.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\AddCategoryU.cs",
+              "RelativeDocumentMoniker": "Evalution2\\AddCategoryU.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\AddCategoryU.cs [Design]",
+              "RelativeToolTip": "Evalution2\\AddCategoryU.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:57:30.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotificationThrowManager.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\NotificationThrowManager.cs",
+              "RelativeDocumentMoniker": "Evalution2\\NotificationThrowManager.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\NotificationThrowManager.cs",
+              "RelativeToolTip": "Evalution2\\NotificationThrowManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:47:28.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotificationForm.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.cs",
+              "RelativeDocumentMoniker": "Evalution2\\NotificationForm.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.cs [Design]",
+              "RelativeToolTip": "Evalution2\\NotificationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:46:25.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomPanel.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\CustomPanel.cs",
+              "RelativeDocumentMoniker": "Evalution2\\CustomPanel.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\CustomPanel.cs",
+              "RelativeToolTip": "Evalution2\\CustomPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:46:00.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomPanel.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\CustomPanel.cs",
+              "RelativeDocumentMoniker": "Evalution2\\CustomPanel.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\CustomPanel.cs [Design]",
+              "RelativeToolTip": "Evalution2\\CustomPanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:45:57.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\CustomButton.cs",
+              "RelativeDocumentMoniker": "Evalution2\\CustomButton.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\CustomButton.cs",
+              "RelativeToolTip": "Evalution2\\CustomButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:45:42.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotificationForm.Designer.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.Designer.cs",
+              "RelativeDocumentMoniker": "Evalution2\\NotificationForm.Designer.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.Designer.cs",
+              "RelativeToolTip": "Evalution2\\NotificationForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:43:57.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificationForm.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.cs",
+              "RelativeDocumentMoniker": "Evalution2\\NotificationForm.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\NotificationForm.cs",
+              "RelativeToolTip": "Evalution2\\NotificationForm.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAkwPUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:40:33.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryDeleteU.cs",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\categoryDeleteU.cs",
+              "RelativeDocumentMoniker": "Evalution2\\categoryDeleteU.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\categoryDeleteU.cs",
+              "RelativeToolTip": "Evalution2\\categoryDeleteU.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIAywB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:04:52.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\ExpenseTracker\\Evalution2\\Form1.cs",
+              "RelativeDocumentMoniker": "Evalution2\\Form1.cs",
+              "ToolTip": "F:\\ExpenseTracker\\Evalution2\\Form1.cs [Design]",
+              "RelativeToolTip": "Evalution2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:04:35.097Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

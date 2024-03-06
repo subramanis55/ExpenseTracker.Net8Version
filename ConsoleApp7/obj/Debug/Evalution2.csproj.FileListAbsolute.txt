@@ -1,0 +1,7 @@
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\bin\Debug\ConsoleApp7.exe.config
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\bin\Debug\ConsoleApp7.exe
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\bin\Debug\ConsoleApp7.pdb
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\Evalution2.csprojAssemblyReference.cache
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\Evalution2.csproj.CoreCompileInputs.cache
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.exe
+C:\Users\Lucid\source\repos\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.pdb
