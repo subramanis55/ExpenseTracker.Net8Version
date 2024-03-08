@@ -1,4 +1,4 @@
-﻿namespace Evalution2
+﻿namespace ExpenseTracker
 {
     partial class Form1
     {
@@ -1388,7 +1388,7 @@
             this.editBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.editBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editBtn.ForeColor = System.Drawing.Color.White;
-            this.editBtn.Image = global::Evalution2.Properties.Resources.edit;
+            this.editBtn.Image = global::ExpenseTracker.Properties.Resources.edit;
             this.editBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.editBtn.Location = new System.Drawing.Point(5, 24);
             this.editBtn.Name = "editBtn";
@@ -1524,7 +1524,7 @@
             this.menuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menuBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBtn.ForeColor = System.Drawing.Color.White;
-            this.menuBtn.Image = global::Evalution2.Properties.Resources.menu_bar__1_;
+            this.menuBtn.Image = global::ExpenseTracker.Properties.Resources.menu_bar__1_;
             this.menuBtn.Location = new System.Drawing.Point(10, 10);
             this.menuBtn.Name = "menuBtn";
             this.menuBtn.Size = new System.Drawing.Size(48, 54);
@@ -1567,7 +1567,7 @@
             this.dashBoardBtn.FlatAppearance.BorderSize = 0;
             this.dashBoardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashBoardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashBoardBtn.Image = global::Evalution2.Properties.Resources.business_and_finance;
+            this.dashBoardBtn.Image = global::ExpenseTracker.Properties.Resources.business_and_finance;
             this.dashBoardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashBoardBtn.Location = new System.Drawing.Point(5, 225);
             this.dashBoardBtn.Name = "dashBoardBtn";
@@ -1584,7 +1584,7 @@
             this.settingPageBtn.FlatAppearance.BorderSize = 0;
             this.settingPageBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settingPageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingPageBtn.Image = global::Evalution2.Properties.Resources.category__1_;
+            this.settingPageBtn.Image = global::ExpenseTracker.Properties.Resources.category__1_;
             this.settingPageBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.settingPageBtn.Location = new System.Drawing.Point(5, 170);
             this.settingPageBtn.Name = "settingPageBtn";
@@ -1602,7 +1602,7 @@
             this.expenseSwitchP.FlatAppearance.BorderSize = 0;
             this.expenseSwitchP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.expenseSwitchP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expenseSwitchP.Image = global::Evalution2.Properties.Resources.calendar__3_;
+            this.expenseSwitchP.Image = global::ExpenseTracker.Properties.Resources.calendar__3_;
             this.expenseSwitchP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.expenseSwitchP.Location = new System.Drawing.Point(5, 115);
             this.expenseSwitchP.Name = "expenseSwitchP";
@@ -1620,7 +1620,7 @@
             this.dayViewPageBtn.FlatAppearance.BorderSize = 0;
             this.dayViewPageBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dayViewPageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dayViewPageBtn.Image = global::Evalution2.Properties.Resources.calender__1_1;
+            this.dayViewPageBtn.Image = global::ExpenseTracker.Properties.Resources.calender__1_1;
             this.dayViewPageBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dayViewPageBtn.Location = new System.Drawing.Point(5, 60);
             this.dayViewPageBtn.Name = "dayViewPageBtn";
@@ -1638,7 +1638,7 @@
             this.expensePageBtn.FlatAppearance.BorderSize = 0;
             this.expensePageBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.expensePageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expensePageBtn.Image = global::Evalution2.Properties.Resources.expenses__1_;
+            this.expensePageBtn.Image = global::ExpenseTracker.Properties.Resources.expenses__1_;
             this.expensePageBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.expensePageBtn.Location = new System.Drawing.Point(5, 5);
             this.expensePageBtn.Name = "expensePageBtn";
@@ -1663,7 +1663,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Evalution2.Properties.Resources.business__2_;
+            this.BackgroundImage = global::ExpenseTracker.Properties.Resources.business__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1051, 578);
             this.Controls.Add(this.mainP);

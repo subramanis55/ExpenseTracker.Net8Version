@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 
-namespace Evalution2
+namespace ExpenseTracker
 {
     public partial class Form1 : Form
     {

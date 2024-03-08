@@ -1,4 +1,4 @@
-﻿namespace Evalution2
+﻿namespace ExpenseTracker
 {
     partial class AddPage
     {

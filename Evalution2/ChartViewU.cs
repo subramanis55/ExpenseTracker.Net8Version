@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Evalution2
+namespace ExpenseTracker
 {
     public partial class ChartViewU : UserControl
     {

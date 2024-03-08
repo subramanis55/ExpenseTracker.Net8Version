@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D6725CA3-A096-46EF-BAA9-D757E8EFC75C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Evalution2</RootNamespace>
-    <AssemblyName>Evalution2</AssemblyName>
+    <RootNamespace>ExpenseTracker</RootNamespace>
+    <AssemblyName>ExpenseTracker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>business %282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ExpenseTracker.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">

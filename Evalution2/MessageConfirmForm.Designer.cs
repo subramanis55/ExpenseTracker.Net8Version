@@ -1,4 +1,4 @@
-﻿namespace Evalution2
+﻿namespace ExpenseTracker
 {
     partial class MessageConfirmForm
     {
@@ -105,7 +105,7 @@
             this.closeBtn.Dock = System.Windows.Forms.DockStyle.Right;
             this.closeBtn.FlatAppearance.BorderSize = 0;
             this.closeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBtn.Image = global::Evalution2.Properties.Resources.icons8_cancel_25__1_;
+            this.closeBtn.Image = global::ExpenseTracker.Properties.Resources.icons8_cancel_25__1_;
             this.closeBtn.Location = new System.Drawing.Point(319, 2);
             this.closeBtn.Name = "closeBtn";
             this.closeBtn.Size = new System.Drawing.Size(42, 33);

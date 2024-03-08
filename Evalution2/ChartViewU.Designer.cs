@@ -1,4 +1,4 @@
-﻿namespace Evalution2
+﻿namespace ExpenseTracker
 {
     partial class ChartViewU
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.chart = new Evalution2.ChartU();
+            this.chart = new ExpenseTracker.ChartU();
             this.categoryAddP = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();

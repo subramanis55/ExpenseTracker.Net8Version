@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 
-namespace Evalution2
+namespace ExpenseTracker
 {
     public partial class NotificationForm : Form
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.ComponentModel;
 
-namespace Evalution2
+namespace ExpenseTracker
 {
     
     public enum NotificationType

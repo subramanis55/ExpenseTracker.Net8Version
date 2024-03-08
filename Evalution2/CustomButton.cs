@@ -9,7 +9,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 
-namespace Evalution2
+namespace ExpenseTracker
 {
     class CustomButton : Button
     {

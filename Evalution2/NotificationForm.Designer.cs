@@ -1,4 +1,4 @@
-﻿namespace Evalution2
+﻿namespace ExpenseTracker
 {
     partial class NotificationForm
     {
@@ -31,7 +31,7 @@
             this.NotificationFormTopP = new System.Windows.Forms.Panel();
             this.NotificationTypeLB = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.CancelBtn = new Evalution2.CustomButton();
+            this.CancelBtn = new ExpenseTracker.CustomButton();
             this.MainP = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.MessageLB = new System.Windows.Forms.Label();
@@ -95,7 +95,7 @@
             this.CancelBtn.FlatAppearance.BorderSize = 0;
             this.CancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
-            this.CancelBtn.Image = global::Evalution2.Properties.Resources.icons8_cancel_30;
+            this.CancelBtn.Image = global::ExpenseTracker.Properties.Resources.icons8_cancel_30;
             this.CancelBtn.Location = new System.Drawing.Point(0, 0);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Padding = new System.Windows.Forms.Padding(0, 0, 1, 0);
