@@ -17,3 +17,22 @@ D:\Subramani 23\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.csproj.CoreCo
 D:\Subramani 23\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.csproj.CopyComplete
 D:\Subramani 23\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.exe
 D:\Subramani 23\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.pdb
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\bin\Debug\ExpenseTracker.exe.config
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\bin\Debug\ExpenseTracker.exe
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\bin\Debug\ExpenseTracker.pdb
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\bin\Debug\MySql.Data.dll
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.csproj.AssemblyReference.cache
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.AddCategoryU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.AddPage.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.CategoryDeleteU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.CategoryUpdateU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.ChartViewU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.Form1.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.MessageConfirmForm.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.NotificationForm.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.Properties.Resources.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.csproj.GenerateResource.cache
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.csproj.CoreCompileInputs.cache
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseT.567C5DF3.Up2Date
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.exe
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.pdb

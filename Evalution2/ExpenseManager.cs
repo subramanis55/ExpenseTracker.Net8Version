@@ -18,7 +18,7 @@ namespace ExpenseTracker
         public static List<Expense> ExpenseList = new List<Expense>();
         private static MySqlCommand cmd=new MySqlCommand();
         public static void  DataBaseConnecting(){
-            string connectionstring = "server=localhost;port=3306;uid=root;pwd=Suppu424*;database=subramani";
+            string connectionstring = "server=localhost;port=3306;uid=root;pwd=$uppu424*;database=ExpenseTracker";
             mySqlConnection = new MySqlConnection(connectionstring);
           
             try
