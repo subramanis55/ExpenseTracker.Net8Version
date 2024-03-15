@@ -134,12 +134,12 @@ namespace ExpenseTracker
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            DoubleBuffered = true;
-            base.OnPaint(e);
-            GraphicsPath path = GetPath(ClientRectangle);
-            this.Region = new Region(path);
+            DoubleBuffered = true;     
             var eg = e.Graphics;
             eg.SmoothingMode = SmoothingMode.AntiAlias;
+            GraphicsPath path = GetPath(ClientRectangle);
+            this.Region = new Region(path);
+                     
             using (Pen Drawpen = new Pen(borderColor, BorderMarginSize))
             {
                 eg.DrawPath(Drawpen, path);

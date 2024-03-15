@@ -97,6 +97,9 @@
     <Compile Include="CustomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CustomPlacehoderTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Expense.cs" />
     <Compile Include="ExpenseManager.cs" />
     <Compile Include="Form1.cs">
@@ -104,6 +107,18 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginpageU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginpageU.Designer.cs">
+      <DependentUpon>LoginpageU.cs</DependentUpon>
     </Compile>
     <Compile Include="MessageConfirmForm.cs">
       <SubType>Form</SubType>
@@ -118,8 +133,29 @@
       <DependentUpon>NotificationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="NotificationThrowManager.cs" />
+    <Compile Include="PlaceHolderTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignPageU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SignPageU.Designer.cs">
+      <DependentUpon>SignPageU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPasswordU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ForgetPasswordU.Designer.cs">
+      <DependentUpon>ForgetPasswordU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginBackgorundMovingU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginBackgorundMovingU.Designer.cs">
+      <DependentUpon>LoginBackgorundMovingU.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddCategoryU.resx">
       <DependentUpon>AddCategoryU.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,8 +171,17 @@
     <EmbeddedResource Include="ChartViewU.resx">
       <DependentUpon>ChartViewU.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPasswordU.resx">
+      <DependentUpon>ForgetPasswordU.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginpageU.resx">
+      <DependentUpon>LoginpageU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MessageConfirmForm.resx">
       <DependentUpon>MessageConfirmForm.cs</DependentUpon>
@@ -154,6 +199,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SignPageU.resx">
+      <DependentUpon>SignPageU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginBackgorundMovingU.resx">
+      <DependentUpon>LoginBackgorundMovingU.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -198,6 +249,10 @@
     <Content Include="business %282%29.ico" />
     <Content Include="calculator.ico" />
     <Content Include="icons8-employee-profile-100.ico" />
+    <None Include="Resources\icons8-password-50.png" />
+    <None Include="Resources\icons8-username-24.png" />
+    <None Include="Resources\icons8-username-50.png" />
+    <None Include="Resources\user.png" />
     <None Include="Resources\business %282%29.png" />
     <None Include="Resources\calculator.png" />
     <None Include="Resources\business-and-finance.png" />

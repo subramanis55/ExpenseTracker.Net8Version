@@ -30,12 +30,12 @@ namespace ExpenseTracker
         private List<string> yearCBSource = new List<string>() {"None"};
         private List<string> dayCBSource= new List<string>() { "None" };    
         private bool isSelectAll;
-        private NotificationThrowManager notificationThrowManager = new NotificationThrowManager();
+        public  static NotificationThrowManager notificationThrowManager = new NotificationThrowManager();
         private Timer startTimer = new Timer();
         public Form1()
         {
             InitializeComponent();
-           ExpenseManager.DataBaseConnecting();
+         
             typeof(Panel).InvokeMember("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.SetProperty | System.Reflection.BindingFlags.NonPublic,null, expenseDataGridViewP, new object[] { true });
             typeof(Panel).InvokeMember("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.SetProperty | System.Reflection.BindingFlags.NonPublic, null, tapViewP, new object[] { true });
             typeof(Panel).InvokeMember("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.SetProperty | System.Reflection.BindingFlags.NonPublic, null, panel18, new object[] { true });
@@ -62,6 +62,7 @@ namespace ExpenseTracker
             startTimer.Tick += StartApplication;
             fromDatePicker.ValueChanged += FromDatePickerValueChanged;
             toDatePicker.ValueChanged += ToDatePickerValueChanged;
+            
         }
 
         private void ToDatePickerValueChanged(object sender, EventArgs e)

@@ -13,7 +13,7 @@ namespace ExpenseTracker
     {
         Information, Error, Success, Warning,None
     }
-    class NotificationThrowManager
+   public class NotificationThrowManager
     {
         Timer arrangeTimer = new Timer();
         private int x= Screen.PrimaryScreen.Bounds.Width - 50; 

@@ -240,9 +240,20 @@ namespace ExpenseTracker
             return true;
         }
         
-
+        //login information
+        public static  void LoginPasswordChange(string username,string password)
+        {
+            string passwordChangeQuery = $"update logininformation set LoginPassword='{password}',UpdatedDate='{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where LoginUsername='{username}' ";
+            ExcuteQuery(passwordChangeQuery);
+        }
+        public static void LoginDetailChange(string username, string password)
+        {
+            string passwordChangeQuery = $"update logininformation set LoginPassword='{password}',LoginUsername='{username}',UpdatedDate='{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}' where id={1} ";
+            ExcuteQuery(passwordChangeQuery);
+        }
         // Get Source
-      
+
+
         public static DataTable GetCategorySource(){
             DataTable table = new DataTable();
 
@@ -260,7 +271,19 @@ namespace ExpenseTracker
             }
             catch{
                 return null;
+
             }         
+        }
+        public static DataTable LoginInformationSource()
+        {
+            DataTable dataTable = new DataTable();
+            string loginInformationGetQuery = "select logininformation.LoginUsername as Username, logininformation.LoginPassword as Password from logininformation";
+            using(MySqlCommand command = new MySqlCommand(loginInformationGetQuery, mySqlConnection))
+            {
+                using(MySqlDataReader reader = command.ExecuteReader())
+                { dataTable.Load(reader); }
+            }
+            return dataTable;
         }
         public static DataTable GetExpenseSource()
         {

@@ -36,3 +36,8 @@ C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseT
 C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseT.567C5DF3.Up2Date
 C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.exe
 C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.pdb
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.LoginForm.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.LoginpageU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.SignPageU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.ForgetPasswordU.resources
+C:\Users\ayyan\Desktop\ProjectFiles\ExpenseTracker\Evalution2\obj\Debug\ExpenseTracker.LoginBackgorundMovingU.resources
