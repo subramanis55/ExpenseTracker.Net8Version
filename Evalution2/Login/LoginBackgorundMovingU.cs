@@ -38,7 +38,7 @@ namespace ExpenseTracker
         {
             InitializeComponent();
             this.Resize += LoginBackgorundMovingUResize;
-            timer.Interval = 15;
+            timer.Interval = 10;
             timer.Tick += moving;
             LoginBackgorundMovingUResize(this, EventArgs.Empty);
         }

@@ -57,136 +57,154 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCategoryU.cs">
+    <Compile Include="CustomSearchBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddCategoryU.Designer.cs">
+    <Compile Include="CustomSearchBox.designer.cs">
+      <DependentUpon>CustomSearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EllipseControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectUserControl\AddCategoryU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectUserControl\AddCategoryU.Designer.cs">
       <DependentUpon>AddCategoryU.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddPage.cs">
+    <Compile Include="Main\AddPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPage.Designer.cs">
+    <Compile Include="Main\AddPage.Designer.cs">
       <DependentUpon>AddPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Category.cs" />
-    <Compile Include="CategoryDeleteU.cs">
+    <Compile Include="Manager\Classes\Category.cs" />
+    <Compile Include="ProjectUserControl\CategoryDeleteU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CategoryDeleteU.Designer.cs">
+    <Compile Include="ProjectUserControl\CategoryDeleteU.Designer.cs">
       <DependentUpon>CategoryDeleteU.cs</DependentUpon>
     </Compile>
-    <Compile Include="CategoryUpdateU.cs">
+    <Compile Include="ProjectUserControl\CategoryUpdateU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CategoryUpdateU.Designer.cs">
+    <Compile Include="ProjectUserControl\CategoryUpdateU.Designer.cs">
       <DependentUpon>CategoryUpdateU.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChartU.cs">
+    <Compile Include="ProjectUserControl\ChartU.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ChartViewU.cs">
+    <Compile Include="ProjectUserControl\ChartViewU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ChartViewU.Designer.cs">
+    <Compile Include="ProjectUserControl\ChartViewU.Designer.cs">
       <DependentUpon>ChartViewU.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomButton.cs">
+    <Compile Include="CommonUserControl\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="CustomPanel.cs">
+    <Compile Include="CommonUserControl\CustomPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="CustomPlacehoderTextBox.cs">
+    <Compile Include="CommonUserControl\CustomPlacehoderTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Expense.cs" />
-    <Compile Include="ExpenseManager.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Manager\Classes\Expense.cs" />
+    <Compile Include="Manager\ExpenseManager.cs" />
+    <Compile Include="Main\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Main\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Login\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Login\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginpageU.cs">
+    <Compile Include="Login\LoginpageU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="LoginpageU.Designer.cs">
+    <Compile Include="Login\LoginpageU.Designer.cs">
       <DependentUpon>LoginpageU.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessageConfirmForm.cs">
+    <Compile Include="CommonUserControl\MessageConfirmForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessageConfirmForm.Designer.cs">
+    <Compile Include="CommonUserControl\MessageConfirmForm.Designer.cs">
       <DependentUpon>MessageConfirmForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NotificationForm.cs">
+    <Compile Include="CommonUserControl\NotificationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NotificationForm.Designer.cs">
+    <Compile Include="CommonUserControl\NotificationForm.Designer.cs">
       <DependentUpon>NotificationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NotificationThrowManager.cs" />
-    <Compile Include="PlaceHolderTextBox.cs">
+    <Compile Include="CommonUserControl\NotificationThrowManager.cs" />
+    <Compile Include="CommonUserControl\PlaceHolderTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignPageU.cs">
+    <Compile Include="Login\SignPageU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SignPageU.Designer.cs">
+    <Compile Include="Login\SignPageU.Designer.cs">
       <DependentUpon>SignPageU.cs</DependentUpon>
     </Compile>
-    <Compile Include="ForgetPasswordU.cs">
+    <Compile Include="Login\ForgetPasswordU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ForgetPasswordU.Designer.cs">
+    <Compile Include="Login\ForgetPasswordU.Designer.cs">
       <DependentUpon>ForgetPasswordU.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginBackgorundMovingU.cs">
+    <Compile Include="Login\LoginBackgorundMovingU.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="LoginBackgorundMovingU.Designer.cs">
+    <Compile Include="Login\LoginBackgorundMovingU.Designer.cs">
       <DependentUpon>LoginBackgorundMovingU.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddCategoryU.resx">
+    <Compile Include="TextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextBox.designer.cs">
+      <DependentUpon>TextBox.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomSearchBox.resx">
+      <DependentUpon>CustomSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectUserControl\AddCategoryU.resx">
       <DependentUpon>AddCategoryU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddPage.resx">
+    <EmbeddedResource Include="Main\AddPage.resx">
       <DependentUpon>AddPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CategoryDeleteU.resx">
+    <EmbeddedResource Include="ProjectUserControl\CategoryDeleteU.resx">
       <DependentUpon>CategoryDeleteU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CategoryUpdateU.resx">
+    <EmbeddedResource Include="ProjectUserControl\CategoryUpdateU.resx">
       <DependentUpon>CategoryUpdateU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChartViewU.resx">
+    <EmbeddedResource Include="ProjectUserControl\ChartViewU.resx">
       <DependentUpon>ChartViewU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForgetPasswordU.resx">
+    <EmbeddedResource Include="Login\ForgetPasswordU.resx">
       <DependentUpon>ForgetPasswordU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Main\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Login\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginpageU.resx">
+    <EmbeddedResource Include="Login\LoginpageU.resx">
       <DependentUpon>LoginpageU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MessageConfirmForm.resx">
+    <EmbeddedResource Include="CommonUserControl\MessageConfirmForm.resx">
       <DependentUpon>MessageConfirmForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NotificationForm.resx">
+    <EmbeddedResource Include="CommonUserControl\NotificationForm.resx">
       <DependentUpon>NotificationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -199,11 +217,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SignPageU.resx">
+    <EmbeddedResource Include="Login\SignPageU.resx">
       <DependentUpon>SignPageU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginBackgorundMovingU.resx">
+    <EmbeddedResource Include="Login\LoginBackgorundMovingU.resx">
       <DependentUpon>LoginBackgorundMovingU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBox.resx">
+      <DependentUpon>TextBox.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -249,6 +270,12 @@
     <Content Include="business %282%29.ico" />
     <Content Include="calculator.ico" />
     <Content Include="icons8-employee-profile-100.ico" />
+    <None Include="Resources\icons8-password-352.png" />
+    <None Include="Resources\icons8-password-351.png" />
+    <None Include="Resources\icons8-user-351.png" />
+    <None Include="Resources\icons8-password-35.png" />
+    <None Include="Resources\icons8-user-35.png" />
+    <None Include="Resources\icons8-user-24.png" />
     <None Include="Resources\icons8-password-50.png" />
     <None Include="Resources\icons8-username-24.png" />
     <None Include="Resources\icons8-username-50.png" />
@@ -276,5 +303,6 @@
     <None Include="Resources\grid %283%29.png" />
     <None Include="Resources\grid %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

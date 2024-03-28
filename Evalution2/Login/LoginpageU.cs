@@ -26,7 +26,7 @@ namespace ExpenseTracker
             loginBtn.Click += LoginBtnClick;
             LoginpageUResize(this, EventArgs.Empty);
         }
-
+       
         private void LoginBtnClick(object sender, EventArgs e)
         {
             DataTable dt = ExpenseManager.LoginInformationSource();
@@ -35,15 +35,17 @@ namespace ExpenseTracker
             {
                 OnLoginBtnClick.Invoke(this, EventArgs.Empty);
             }
-            else if(""== usernameTB.Text || passwordTB.Text == "" || usernameTB.isPlaceholder || passwordTB.isPlaceholder)
+            else if(""== usernameTB.Text|| passwordTB.Text == "" || usernameTB.IsPlaceholder || passwordTB.IsPlaceholder)
             {
                 Form1.notificationThrowManager.CreateNotification("Enter the Username or Password", NotificationType.Information);
+           
             }
             else
             {
                 Form1.notificationThrowManager.CreateNotification("Username or Password Invalid",NotificationType.Error);
                 passwordTB.Text = "";
                 usernameTB.Text = "";
+              
             }
 
         }
@@ -61,15 +63,25 @@ namespace ExpenseTracker
 
         private void LoginpageUResize(object sender, EventArgs e)
         {
-            forgetPasswordLinkLabel.Location = new Point(linkP.Width / 2 - forgetPasswordLinkLabel.Width / 2, 8);
-           signUpLinkLabel.Location = new Point(linkP.Width / 2 - signUpLinkLabel.Width / 2, linkP.Height- signUpLinkLabel.Height- 8);
-            loginBtn.Location = new Point(loginBtnP.Width / 2 - loginBtn.Width / 2, loginBtnP.Height - loginBtn.Height - 8);
-            userImagePB.Location = new Point(userImageP.Width / 2 - userImagePB.Width / 2-10, 8);
-            
             loginLeftSidePB.Width = Width / 2;
             leftP.Width = Width / 2;
-            loginPageP.Location = new Point(leftP.Width / 2 - loginPageP.Width / 2 + (leftP.Width - loginPageP.Width) / 4, 10);
-          
+            loginPageP.Height = leftP.Height - 20;                    
+            
+            userImageP.Height = (loginPageP.Height / 7) * 2;
+            userImagePB.Height = userImageP.Height / 2+ userImageP.Height / 4;
+            usernameP.Height = (int)((loginPageP.Height / 7)*1.2);
+            passwordP.Height= (int)((loginPageP.Height / 7) *1.2); 
+            loginBtnP.Height = (loginPageP.Height / 7) ;
+            forgetpasswordP.Height= (loginPageP.Height / 7)/2 ;
+            signPageP.Height= (loginPageP.Height / 7) /2;
+            usernameTB.Location = new Point(usernameP.Width / 2 - usernameTB.Width / 2 - 10, usernameP.Height / 2 - usernameTB.Height / 2);
+            passwordTB.Location = new Point(passwordP.Width / 2 - passwordTB.Width / 2 - 10, passwordP.Height / 2 - passwordTB.Height / 2);
+            forgetPasswordLinkLabel.Location = new Point(forgetpasswordP.Width / 2 - forgetPasswordLinkLabel.Width / 2-10, 8);
+           signUpLinkLabel.Location = new Point(signPageP.Width / 2 - signUpLinkLabel.Width / 2-10,  5);
+            loginBtn.Location = new Point(loginBtnP.Width / 2 - loginBtn.Width / 2-10, loginBtnP.Height / 2 - loginBtn.Height / 2);
+            userImagePB.Location = new Point(userImageP.Width / 2 - userImagePB.Width / 2-10, 8);                          
+           
+            loginPageP.Location = new Point(leftP.Width / 2 - loginPageP.Width / 2 , 1);
         }
 
         private void leftP_Paint(object sender, PaintEventArgs e)

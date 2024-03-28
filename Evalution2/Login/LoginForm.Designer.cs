@@ -38,9 +38,10 @@
             this.mainP.BackColor = System.Drawing.Color.Teal;
             this.mainP.Controls.Add(this.loginBackgorundMovingU1);
             this.mainP.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainP.Location = new System.Drawing.Point(10, 10);
+            this.mainP.Location = new System.Drawing.Point(8, 8);
+            this.mainP.Margin = new System.Windows.Forms.Padding(2);
             this.mainP.Name = "mainP";
-            this.mainP.Size = new System.Drawing.Size(895, 518);
+            this.mainP.Size = new System.Drawing.Size(784, 484);
             this.mainP.TabIndex = 5;
             // 
             // loginBackgorundMovingU1
@@ -49,23 +50,25 @@
             this.loginBackgorundMovingU1.Direction = ExpenseTracker.MoveDirection.None;
             this.loginBackgorundMovingU1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginBackgorundMovingU1.Location = new System.Drawing.Point(0, 0);
+            this.loginBackgorundMovingU1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginBackgorundMovingU1.Name = "loginBackgorundMovingU1";
-            this.loginBackgorundMovingU1.Padding = new System.Windows.Forms.Padding(4);
-            this.loginBackgorundMovingU1.Size = new System.Drawing.Size(895, 518);
+            this.loginBackgorundMovingU1.Padding = new System.Windows.Forms.Padding(3);
+            this.loginBackgorundMovingU1.Size = new System.Drawing.Size(784, 484);
             this.loginBackgorundMovingU1.TabIndex = 0;
             this.loginBackgorundMovingU1.Visible = false;
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(915, 538);
+            this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.mainP);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LoginForm";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Padding = new System.Windows.Forms.Padding(8);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
             this.mainP.ResumeLayout(false);

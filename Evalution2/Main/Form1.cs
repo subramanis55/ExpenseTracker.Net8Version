@@ -62,7 +62,13 @@ namespace ExpenseTracker
             startTimer.Tick += StartApplication;
             fromDatePicker.ValueChanged += FromDatePickerValueChanged;
             toDatePicker.ValueChanged += ToDatePickerValueChanged;
+            this.FormClosed += Form1FormClosed;
             
+        }
+
+        private void Form1FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0);
         }
 
         private void ToDatePickerValueChanged(object sender, EventArgs e)
@@ -576,8 +582,7 @@ namespace ExpenseTracker
             categoryGenralCB.ValueMember = "CategoryID";
             startTimer.Start();
             TopPResize(this, EventArgs.Empty);
-            menuP.Width = 0;
-          
+        
             categorydataGridView.DataSource = ExpenseManager.GetCategorySource();
             expenseDataGridView.DataSource= ExpenseManager.GetExpenseSource();
             expenseDataGridView.Columns["ID"].Visible = false;
@@ -627,12 +632,14 @@ namespace ExpenseTracker
         public void MenuPanelVisible(object sender, EventArgs e)
         {
            if(menuP.Width<300&&isMenuPanelVisible){
-                menuP.Width += 25;
+                menuP.Width += 30;
            }
            else if(menuP.Width > 0 &&!isMenuPanelVisible){
-                menuP.Width -= 25;
+                menuP.Width -= 30;
             }
            else{
+          
+
                 Timer timer = (Timer)(sender);
                 timer.Stop();
                 timer.Dispose();
@@ -641,12 +648,13 @@ namespace ExpenseTracker
         }
         private void MenuViewBtnClick(object sender, EventArgs e)
         {
-            isMenuPanelVisible = !isMenuPanelVisible;
-            Timer timer = new Timer();
-            timer.Interval = 5;
-            timer.Tick += MenuPanelVisible;
-            timer.Start();
-          //  menuP.Visible =!menuP.Visible;
+            //menuP.BringToFront();
+            //    isMenuPanelVisible = !isMenuPanelVisible;
+            //Timer timer = new Timer();
+            //timer.Interval = 2;
+            //timer.Tick += MenuPanelVisible;
+            //timer.Start();
+          menuP.Visible =!menuP.Visible;
         }
         private void ExpensePageClick(object sender, EventArgs e)
         {

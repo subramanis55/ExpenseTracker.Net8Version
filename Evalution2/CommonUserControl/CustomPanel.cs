@@ -112,10 +112,11 @@ namespace ExpenseTracker
             }
         }
 
-        public CustomPanel() : base()
+        public CustomPanel() 
         {
 
             DoubleBuffered = true;
+            this.Resize += CustomPanelResize;
 
         }
 
@@ -129,21 +130,31 @@ namespace ExpenseTracker
             g.AddArc(rec.Width - borderRadius - borderMarginSize, rec.Height - borderRadius - borderMarginSize, bottomRight, bottomRight, 0, 90);
             g.AddArc(rec.X, rec.Height - borderRadius - borderMarginSize, bottomLeftRadius, bottomLeftRadius, 90, 90);
             g.CloseFigure();
+         
             return g;
+        }
+
+        private void CustomPanelResize(object sender, EventArgs e)
+        {
+            OnPaint(new PaintEventArgs(CreateGraphics(), ClientRectangle));
         }
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            this.SuspendLayout();
             DoubleBuffered = true;     
             var eg = e.Graphics;
             eg.SmoothingMode = SmoothingMode.AntiAlias;
             GraphicsPath path = GetPath(ClientRectangle);
-            this.Region = new Region(path);
-                     
-            using (Pen Drawpen = new Pen(borderColor, BorderMarginSize))
-            {
-                eg.DrawPath(Drawpen, path);
+            using (SolidBrush b=new SolidBrush(BackColor)){
+                eg.FillPath(b, path);
             }
+            this.Region = new Region(path);
+            this.ResumeLayout();
+            //using (Pen Drawpen = new Pen(borderColor, BorderMarginSize))
+            //{
+            //    eg.DrawPath(Drawpen, path);
+            //}
         }
 
     }

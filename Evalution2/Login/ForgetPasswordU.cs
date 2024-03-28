@@ -31,13 +31,10 @@ namespace ExpenseTracker
         }
         private void textBoxClear()
         {
-            usernameTB.Text = null;
-            usernameTB.OnLostFocusMethod();
-            
-            newPasswordTB.Text = null;
-            newPasswordTB.OnLostFocusMethod();
+            usernameTB.Text = null;                   
+            newPasswordTB.Text = null;         
             confirmPasswordTB.Text = null;
-            confirmPasswordTB.OnLostFocusMethod();
+          
         }
 
         private void SubmitBtnClick(object sender, EventArgs e)
@@ -54,7 +51,7 @@ namespace ExpenseTracker
                 Form1.notificationThrowManager.CreateNotification("Username Invalid", NotificationType.Error);
                 textBoxClear();
             }
-            else if ("" == usernameTB.Text || newPasswordTB.Text == "" || confirmPasswordTB.Text == "" || usernameTB.isPlaceholder || newPasswordTB.isPlaceholder || confirmPasswordTB.isPlaceholder)
+            else if ("" == usernameTB.Text || newPasswordTB.Text == "" || confirmPasswordTB.Text == "" || usernameTB.IsPlaceholder || newPasswordTB.IsPlaceholder || confirmPasswordTB.IsPlaceholder)
             {
                 Form1.notificationThrowManager.CreateNotification("Enter the Username and Password", NotificationType.Information);
             }
@@ -70,9 +67,24 @@ namespace ExpenseTracker
 
         private void ForgetPasswordUResize(object sender, EventArgs e)
         {
-          
-            loginLinkLabel.Location = new Point(linkP.Width / 2 - loginLinkLabel.Width / 2, linkP.Height - loginLinkLabel.Height - 8);
-            submitBtn.Location = new Point(submitBtnP.Width / 2 - submitBtn.Width / 2, submitBtnP.Height - submitBtn.Height - 8);
+
+            
+            leftP.Width = Width / 2;
+            signPageP.Height = leftP.Height - 20;
+            userImageP.Height = (int)((signPageP.Height / 7) * 1.5);
+            userImagePB.Height = userImageP.Height / 2 + userImageP.Height / 4;
+            usernameP.Height = (int)((signPageP.Height / 7) * 1.2);
+            newpasswordP.Height = (int)((signPageP.Height / 7) * 1.2);
+            confirmpasswordP.Height = (int)((signPageP.Height / 7) * 1.2);
+            submitBtnP.Height = (signPageP.Height / 7);
+            linkP.Height = (int)((signPageP.Height / 7)*0.6);
+            loginLinkLabel.Location = new Point(linkP.Width / 2 - loginLinkLabel.Width / 2 - 10, 5);
+            submitBtn.Location = new Point(submitBtnP.Width / 2 - submitBtn.Width / 2 - 10, submitBtnP.Height / 2 - submitBtn.Height / 2); 
+            userImagePB.Location = new Point(userImageP.Width / 2 - userImagePB.Width / 2 - 10, 8);
+            userImagePB.Location = new Point(userImageP.Width / 2 - userImagePB.Width / 2 - 10, 8);
+            usernameTB.Location = new Point(usernameP.Width / 2 - usernameTB.Width / 2 - 10, usernameP.Height / 2 - usernameTB.Height / 2);
+            newPasswordTB.Location = new Point(newpasswordP.Width / 2 - newPasswordTB.Width / 2 - 10, newpasswordP.Height / 2 - newPasswordTB.Height / 2);
+            signPageP.Location = new Point(leftP.Width / 2 - signPageP.Width / 2, 1);
             userImagePB.Location = new Point(userImageP.Width / 2 - userImagePB.Width / 2-10, 8);
             rightP.Width = Width / 4;
             leftP.Width = Width/4;
@@ -82,17 +94,13 @@ namespace ExpenseTracker
         {
             if (PasswordShowCB.Checked == true)
             {
-               
-                    newPasswordTB.PasswordChar= '\0';
-              
-                confirmPasswordTB.PasswordChar = '\0';
+                newPasswordTB.UseSystemPasswordChar = false;
+                confirmPasswordTB.UseSystemPasswordChar = false;
             }
             else
             {
-                if (newPasswordTB.Text != newPasswordTB.PlaceHolderText&&newPasswordTB.PlaceHolderColor!=newPasswordTB.ForeColor)
-                    newPasswordTB.PasswordChar = '*';
-                if (confirmPasswordTB.Text != confirmPasswordTB.PlaceHolderText && confirmPasswordTB.PlaceHolderColor != confirmPasswordTB.ForeColor)
-                    confirmPasswordTB.PasswordChar = '*';
+                newPasswordTB.UseSystemPasswordChar = true;
+                confirmPasswordTB.UseSystemPasswordChar = true;
             }
         }
 

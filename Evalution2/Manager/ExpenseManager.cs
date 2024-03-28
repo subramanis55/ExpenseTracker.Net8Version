@@ -18,7 +18,7 @@ namespace ExpenseTracker
         public static List<Expense> ExpenseList = new List<Expense>();
         private static MySqlCommand cmd=new MySqlCommand();
         public static void  DataBaseConnecting(){
-            string connectionstring = "server=localhost;port=3306;uid=root;pwd=$uppu424*;database=ExpenseTracker";
+            string connectionstring = "server=192.168.3.50;port=3306;uid=root;pwd=$uppu424*;database=ExpenseTracker";
             mySqlConnection = new MySqlConnection(connectionstring);
           
             try
@@ -26,9 +26,9 @@ namespace ExpenseTracker
                 mySqlConnection.Open();
                 cmd.Connection = mySqlConnection;
             }
-            catch
+            catch(Exception ex)
             {
-              
+                MessageBox.Show(ex.ToString());
             }
 
         }
@@ -257,7 +257,7 @@ namespace ExpenseTracker
         public static DataTable GetCategorySource(){
             DataTable table = new DataTable();
 
-            string categoryGetQuery = "select category.CategoryID as CategoryID,category.CategoryName as CategoryName,category.BudgetLimit as BudgetLimit,category.CurrentMonthUsedAmount as CurrentMonthUsedAmount from category LEFT JOIN expense ON expense.CategoryID = category.CategoryID;" ;
+            string categoryGetQuery = "select category.CategoryID as CategoryID,category.CategoryName as CategoryName,category.BudgetLimit as BudgetLimit,category.CurrentMonthUsedAmount as CurrentMonthUsedAmount from category LEFT JOIN expense ON expense.CategoryID = category.CategoryID order by category.CategoryID;";
             try
             {
                 using (MySqlCommand command = new MySqlCommand(categoryGetQuery, mySqlConnection))
