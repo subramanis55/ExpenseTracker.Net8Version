@@ -18,7 +18,7 @@ namespace ExpenseTracker
         public static List<Expense> ExpenseList = new List<Expense>();
         private static MySqlCommand cmd=new MySqlCommand();
         public static void  DataBaseConnecting(){
-            string connectionstring = "server=192.168.3.50;port=3306;uid=root;pwd=$uppu424*;database=ExpenseTracker";
+            string connectionstring = $"server=localhost;port=3306;uid=root;pwd=$uppu424*;database=ExpenseTracker";
             mySqlConnection = new MySqlConnection(connectionstring);
           
             try
@@ -28,7 +28,7 @@ namespace ExpenseTracker
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("DataBase Connection Fail");
             }
 
         }
@@ -102,12 +102,12 @@ namespace ExpenseTracker
             ExcuteQuery(foreignKeyCheckOFF);
             string deleteCategoryQuery = $"delete from category where CategoryID={categoryID};";
             ExcuteQuery(deleteCategoryQuery); 
-            string convertExpenseToOthersCategory = $"update expense  set CategoryID={100} where CategoryID={categoryID};";
+            string convertExpenseToOthersCategory = $"update expense  set CategoryID={2} where CategoryID={categoryID};";
             ExcuteQuery(convertExpenseToOthersCategory);
-            string sumOfOtherCategoryAmountAfterDeleteQuery = $" Select Sum(Amount) from expense where CategoryID={100} and Month(DateAndTime)={DateTime.Now.Month} and Year(DateAndTime)={DateTime.Now.Year};";
+            string sumOfOtherCategoryAmountAfterDeleteQuery = $" Select Sum(Amount) from expense where CategoryID={2} AND Month(DateAndTime)={DateTime.Now.Month} AND Year(DateAndTime)={DateTime.Now.Year};";
             cmd.CommandText = sumOfOtherCategoryAmountAfterDeleteQuery;
             int sumOfOtherCategoryAmountAfterDelete = Convert.ToInt32(cmd.ExecuteScalar());
-            string UpdateOtherCategoryAmountQuery = $"Update category set CurrentMonthUsedAmount={sumOfOtherCategoryAmountAfterDelete} where  CategoryID={100}";
+            string UpdateOtherCategoryAmountQuery = $"Update category set CurrentMonthUsedAmount={sumOfOtherCategoryAmountAfterDelete} where  CategoryID={2}";
             ExcuteQuery(UpdateOtherCategoryAmountQuery);
             string foreignKeyCheckOn = $"SET FOREIGN_KEY_CHECKS ={1};";
             cmd.CommandText = foreignKeyCheckOn;

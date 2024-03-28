@@ -20,7 +20,7 @@ namespace ExpenseTracker
         public LoginForm()
         {
             InitializeComponent();
-            ExpenseManager.DataBaseConnecting();
+            
             loginPageU.OnForgetPasswordLinkLabelClick += LoginpageUOnForgetPasswordLinkLabelClick;
             loginPageU.OnLoginBtnClick += LoginpageUOnLoginBtnClick;
             loginPageU.OnSignUpLinkLabelClick += LoginpageUOnSignUpLinkLabelClick;

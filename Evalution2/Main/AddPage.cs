@@ -36,6 +36,8 @@ namespace ExpenseTracker
             IsEditMode = true;
             DataTable dataTable = ExpenseManager.GetCategorySource();
             dataTable.Rows.RemoveAt(0);
+           // dataTable.Rows.Add(new DataRow(dataTable.Rows[0]));
+            dataTable.Rows.RemoveAt(0);
             categoryCB.DataSource = dataTable;
             categoryCB.DisplayMember = "CategoryName";
             categoryCB.ValueMember = "CategoryID";
@@ -55,7 +57,27 @@ namespace ExpenseTracker
                 reasonTB.Text = expense.Detail;
            } 
         }
+        bool isUp;
+        Point prevPoint;
+        private void MessageBoxTopPMouseMove(object sender, MouseEventArgs e)
+        {
+            if (isUp)
+            {
+                this.Location = new Point(Location.X + (Cursor.Position.X - prevPoint.X), Location.Y + (Cursor.Position.Y - prevPoint.Y));
+                prevPoint = Cursor.Position;
+            }
 
+        }
+        private void MessageBoxTopPMouseDown(object sender, MouseEventArgs e)
+        {
+            isUp = true;
+            prevPoint = Cursor.Position;
+        }
+
+        private void MessageBoxTopPMouseUp(object sender, MouseEventArgs e)
+        {
+            isUp = false;
+        }
         public AddPage(List<string> categorySource)
         {
             InitializeComponent();
@@ -64,12 +86,18 @@ namespace ExpenseTracker
 
         private void AddPageLoad(object sender, EventArgs e)
         {
-            submitBtn.Click += SubmitBtnClick;
+            AddBtn.Click += SubmitBtnClick;
             dateTimePicker.ValueChanged += DateTimePickerValueChanged;
-           // categoryCB.SelectedIndex = 0;
+            cancelBtn.Click += CancelBtn_Click;
+            // categoryCB.SelectedIndex = 0;
             date = dateTimePicker.Value;
         }
-       
+
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
         private void DateTimePickerValueChanged(object sender, EventArgs e)
         {
             date = dateTimePicker.Value;
@@ -79,6 +107,11 @@ namespace ExpenseTracker
         {
              OnSubmit?.Invoke(this, new List<object>() { categoryCB.SelectedValue.ToString(), amountTB.Text, date, reasonTB.Text });                      
                           
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

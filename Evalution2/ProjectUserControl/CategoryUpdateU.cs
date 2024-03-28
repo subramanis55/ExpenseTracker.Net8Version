@@ -39,7 +39,7 @@ namespace ExpenseTracker
         {     
                 if (categoryCB.DataSource != null)
                 {
-                if (categoryCB.SelectedIndex == 0 || (int)categoryCB.SelectedValue==100)
+                if ((int)categoryCB.SelectedValue == 1 || (int)categoryCB.SelectedValue==2)
                     {
                         categaryNameTB.ReadOnly = true;
                     }

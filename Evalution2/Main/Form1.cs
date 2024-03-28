@@ -477,7 +477,7 @@ namespace ExpenseTracker
             }
             catch
             {
-                notificationThrowManager.CreateNotification(ExpenseManager.FindCategoryName(categoryId) + " Category not exits ", NotificationType.Warning);
+               // notificationThrowManager.CreateNotification(ExpenseManager.FindCategoryName(categoryId) + " Category Expense D exits ", NotificationType.Warning);
             }
 
         }

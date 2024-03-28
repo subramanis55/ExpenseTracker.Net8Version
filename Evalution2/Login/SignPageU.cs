@@ -87,13 +87,14 @@ namespace ExpenseTracker
             {
 
                 newPasswordTB.UseSystemPasswordChar = false;
-
+               
                 confirmPasswordTB.UseSystemPasswordChar = false;
+            
             }
             else
             {
-             
-                    newPasswordTB.UseSystemPasswordChar = true;
+               
+                newPasswordTB.UseSystemPasswordChar = true;
               
                     confirmPasswordTB.UseSystemPasswordChar = true;
             }
@@ -110,6 +111,21 @@ namespace ExpenseTracker
         }
 
         private void customPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void newPasswordTB_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxU1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxU2_Load(object sender, EventArgs e)
         {
 
         }

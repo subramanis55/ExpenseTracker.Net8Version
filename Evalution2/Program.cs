@@ -17,6 +17,7 @@ namespace ExpenseTracker
             if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            ExpenseManager.DataBaseConnecting();
             Application.Run(new LoginForm());
         }
         [System.Runtime.InteropServices.DllImport("user32.dll")]

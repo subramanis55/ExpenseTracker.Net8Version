@@ -115,26 +115,23 @@ namespace ExpenseTracker
             set
             {
                 textBox.UseSystemPasswordChar = value;
-                if(value)
-                {
-                    textBox.Multiline = false;
-                    textBox.Dock = DockStyle.None;
-                    TextBoxUResize(this, EventArgs.Empty);
-                }
-                else
-                {
-                    textBox.Multiline = true;
-                    textBox.Dock = DockStyle.Fill;
-                }
+                //if(value)
+                //{
+                //    textBox.Multiline = false;
+                //    textBox.Dock = DockStyle.None;
+                //    TextBoxUResize(this, EventArgs.Empty);
+                //}
+                //else
+                //{
+                //    textBox.Multiline = true;
+                //    textBox.Dock = DockStyle.Fill;
+                //}
 
             }
         }
         public char PasswordChar
         {
-            get
-            {
-                return textBox.PasswordChar;
-            }
+           
             set
             {
                 textBox.PasswordChar = value;

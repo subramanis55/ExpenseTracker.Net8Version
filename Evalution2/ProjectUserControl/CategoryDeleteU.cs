@@ -19,7 +19,7 @@ namespace ExpenseTracker
             DataTable dataTable = ExpenseManager.GetCategorySource();
             dataTable.Rows.RemoveAt(0);
             for(int i=0;i < dataTable.Rows.Count;i++){
-            if (int.Parse(dataTable.Rows[i]["CategoryID"].ToString())==100){
+            if (int.Parse(dataTable.Rows[i]["CategoryID"].ToString())==2){
                     dataTable.Rows.RemoveAt(i);
                     break;
             }

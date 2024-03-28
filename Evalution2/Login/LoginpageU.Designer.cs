@@ -38,11 +38,11 @@
             this.loginBtnP = new System.Windows.Forms.Panel();
             this.loginBtn = new System.Windows.Forms.Button();
             this.passwordP = new System.Windows.Forms.Panel();
-            this.passwordTB = new ExpenseTracker.TextBoxU();
             this.usernameP = new System.Windows.Forms.Panel();
             this.usernameTB = new ExpenseTracker.TextBoxU();
             this.userImageP = new System.Windows.Forms.Panel();
             this.userImagePB = new System.Windows.Forms.PictureBox();
+            this.passwordTB = new ExpenseTracker.TextBoxU();
             ((System.ComponentModel.ISupportInitialize)(this.loginLeftSidePB)).BeginInit();
             this.leftP.SuspendLayout();
             this.loginPageP.SuspendLayout();
@@ -120,7 +120,7 @@
             this.signUpLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signUpLinkLabel.Location = new System.Drawing.Point(150, 17);
             this.signUpLinkLabel.Name = "signUpLinkLabel";
-            this.signUpLinkLabel.Size = new System.Drawing.Size(56, 18);
+            this.signUpLinkLabel.Size = new System.Drawing.Size(69, 22);
             this.signUpLinkLabel.TabIndex = 5;
             this.signUpLinkLabel.TabStop = true;
             this.signUpLinkLabel.Text = "SignUp";
@@ -141,7 +141,7 @@
             this.forgetPasswordLinkLabel.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forgetPasswordLinkLabel.Location = new System.Drawing.Point(115, 14);
             this.forgetPasswordLinkLabel.Name = "forgetPasswordLinkLabel";
-            this.forgetPasswordLinkLabel.Size = new System.Drawing.Size(124, 20);
+            this.forgetPasswordLinkLabel.Size = new System.Drawing.Size(148, 23);
             this.forgetPasswordLinkLabel.TabIndex = 4;
             this.forgetPasswordLinkLabel.TabStop = true;
             this.forgetPasswordLinkLabel.Text = "Forget Password ?";
@@ -162,7 +162,7 @@
             this.loginBtn.BackColor = System.Drawing.Color.Teal;
             this.loginBtn.FlatAppearance.BorderSize = 0;
             this.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginBtn.ForeColor = System.Drawing.Color.White;
             this.loginBtn.Location = new System.Drawing.Point(89, 32);
             this.loginBtn.Name = "loginBtn";
@@ -180,32 +180,6 @@
             this.passwordP.Padding = new System.Windows.Forms.Padding(30, 10, 30, 10);
             this.passwordP.Size = new System.Drawing.Size(342, 76);
             this.passwordP.TabIndex = 2;
-            // 
-            // passwordTB
-            // 
-            this.passwordTB.BackColor = System.Drawing.Color.White;
-            this.passwordTB.BorderRadius = 1;
-            this.passwordTB.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.passwordTB.IsPlaceholder = true;
-            this.passwordTB.Location = new System.Drawing.Point(30, 10);
-            this.passwordTB.Margin = new System.Windows.Forms.Padding(2);
-            this.passwordTB.Multiline = false;
-            this.passwordTB.Name = "passwordTB";
-            this.passwordTB.Padding = new System.Windows.Forms.Padding(20, 15, 8, 6);
-            this.passwordTB.PasswordChar = '●';
-            this.passwordTB.PlaceholderFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.passwordTB.PlaceholderLabelAtCenterColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.passwordTB.PlaceholderLabelAtTopColor = System.Drawing.Color.Teal;
-            this.passwordTB.PlaceholderText = "Password";
-            this.passwordTB.PlaceholderTextCenterFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.passwordTB.PlaceholderTextTopFont = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordTB.Size = new System.Drawing.Size(282, 56);
-            this.passwordTB.TabIndex = 1;
-            this.passwordTB.TabStop = false;
-            this.passwordTB.TextBoxDock = System.Windows.Forms.DockStyle.None;
-            this.passwordTB.TextBoxFont = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordTB.TextBoxtext = "";
-            this.passwordTB.UseSystemPasswordChar = true;
             // 
             // usernameP
             // 
@@ -225,13 +199,13 @@
             this.usernameTB.IsPlaceholder = true;
             this.usernameTB.Location = new System.Drawing.Point(30, 10);
             this.usernameTB.Margin = new System.Windows.Forms.Padding(2);
-            this.usernameTB.Multiline = true;
+            this.usernameTB.Multiline = false;
             this.usernameTB.Name = "usernameTB";
             this.usernameTB.Padding = new System.Windows.Forms.Padding(18, 20, 8, 6);
             this.usernameTB.PasswordChar = '\0';
             this.usernameTB.PlaceholderFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.usernameTB.PlaceholderLabelAtCenterColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.usernameTB.PlaceholderLabelAtTopColor = System.Drawing.Color.Teal;
+            this.usernameTB.PlaceholderLabelAtCenterColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.usernameTB.PlaceholderLabelAtTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(125)))), ((int)(((byte)(225)))));
             this.usernameTB.PlaceholderText = "Username";
             this.usernameTB.PlaceholderTextCenterFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.usernameTB.PlaceholderTextTopFont = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -261,6 +235,32 @@
             this.userImagePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.userImagePB.TabIndex = 0;
             this.userImagePB.TabStop = false;
+            // 
+            // passwordTB
+            // 
+            this.passwordTB.BackColor = System.Drawing.Color.White;
+            this.passwordTB.BorderRadius = 1;
+            this.passwordTB.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passwordTB.IsPlaceholder = true;
+            this.passwordTB.Location = new System.Drawing.Point(30, 11);
+            this.passwordTB.Margin = new System.Windows.Forms.Padding(2);
+            this.passwordTB.Multiline = false;
+            this.passwordTB.Name = "passwordTB";
+            this.passwordTB.Padding = new System.Windows.Forms.Padding(18, 20, 8, 6);
+            this.passwordTB.PasswordChar = '●';
+            this.passwordTB.PlaceholderFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.passwordTB.PlaceholderLabelAtCenterColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.passwordTB.PlaceholderLabelAtTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(125)))), ((int)(((byte)(225)))));
+            this.passwordTB.PlaceholderText = "Password";
+            this.passwordTB.PlaceholderTextCenterFont = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.passwordTB.PlaceholderTextTopFont = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordTB.Size = new System.Drawing.Size(282, 54);
+            this.passwordTB.TabIndex = 1;
+            this.passwordTB.TabStop = false;
+            this.passwordTB.TextBoxDock = System.Windows.Forms.DockStyle.Fill;
+            this.passwordTB.TextBoxFont = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordTB.TextBoxtext = "";
+            this.passwordTB.UseSystemPasswordChar = true;
             // 
             // LoginpageU
             // 
@@ -303,7 +303,7 @@
         private CustomPanel leftP;
         private System.Windows.Forms.Panel signPageP;
         private System.Windows.Forms.Panel forgetpasswordP;
-        private TextBoxU passwordTB;
         private TextBoxU usernameTB;
+        private TextBoxU passwordTB;
     }
 }
